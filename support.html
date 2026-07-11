@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>eSheep+ 用户支持</title>
+  <meta name="description" content="eSheep+ 使用帮助、账号删除和技术支持。">
+  <link rel="icon" href="assets/app-icon.png">
+  <style>
+    :root { --green:#0d6e4a; --paper:#f7f8f5; --ink:#17211d; --muted:#66736d; --line:rgba(23,33,29,.12); }
+    * { box-sizing:border-box; }
+    body { margin:0; color:var(--ink); background:var(--paper); font:16px/1.75 -apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif; }
+    header { border-bottom:1px solid var(--line); background:#fff; }
+    nav, main, footer { width:min(820px,calc(100% - 36px)); margin:auto; }
+    nav { min-height:68px; display:flex; align-items:center; justify-content:space-between; gap:20px; }
+    .brand { display:flex; align-items:center; gap:10px; color:var(--green); font-weight:800; }
+    .brand img { width:36px; height:36px; border-radius:10px; }
+    a { color:var(--green); text-decoration:none; }
+    main { padding:64px 0 80px; }
+    h1 { margin:0 0 8px; font-size:clamp(34px,7vw,54px); line-height:1.1; }
+    h2 { margin:38px 0 8px; font-size:22px; }
+    p, li { color:#34423c; }
+    .contact { margin:28px 0; padding:22px; border-radius:14px; background:#e5f1eb; }
+    footer { padding:26px 0 40px; border-top:1px solid var(--line); color:var(--muted); }
+  </style>
+</head>
+<body>
+  <header><nav><a class="brand" href="index.html"><img src="assets/app-icon.png" alt=""><span>eSheep+</span></a><a href="privacy.html">隐私政策</a></nav></header>
+  <main>
+    <h1>用户支持</h1>
+    <p>这里提供 eSheep+ 的账号、同步、数据备份和 AI 功能帮助。</p>
+    <div class="contact"><strong>联系邮箱</strong><br><a href="mailto:1196705821@qq.com">1196705821@qq.com</a><br><span>请在邮件中说明设备型号、系统版本、问题发生步骤和是否涉及云端牧场。</span></div>
+
+    <h2>账号与牧场</h2>
+    <ul>
+      <li>登录后必须新建牧场，或输入场主提供的邀请码加入牧场，才会加载云端数据。</li>
+      <li>场主负责成员邀请、角色调整、牧场改名和受保护记录删除。</li>
+      <li>默认牧场是设备本地空间，不参与云端同步。</li>
+    </ul>
+
+    <h2>删除账号</h2>
+    <p>打开“个人中心 → 账户与隐私 → 申请删除账号”。如果仍是场主，请先把每个牧场转让给现有成员，或先导出 JSON 备份后明确删除牧场。删除申请有 7 天撤销期；期间重新登录即可看到撤销入口。</p>
+
+    <h2>备份与恢复</h2>
+    <p>在“更多 → 本地备份”导出 JSON 文件。恢复前确认当前所选牧场，避免把备份恢复到错误的本地空间。云端数据发生异常时不要用陈旧本地缓存覆盖，应先联系支持确认。</p>
+
+    <h2>AI 助手</h2>
+    <p>DeepSeek 和 MiMo 使用用户自己的 API Key。Key 只保存在本机。文本 AI、图片 AI 和本地查询的可用性取决于相应 Key、网络和当前角色权限。</p>
+
+    <h2>隐私与数据</h2>
+    <p>数据类型、第三方服务和保存期限请阅读 <a href="privacy.html">eSheep+ 隐私政策</a>。</p>
+  </main>
+  <footer>© 2026 eSheep+ · <a href="index.html">返回首页</a> · <a href="privacy.html">隐私政策</a></footer>
+</body>
+</html>
+
